@@ -67,3 +67,11 @@ function resetGame() {
 
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
+
+guesses.textContent = "Where is my paragraph?";
+
+//testing out adding css with JS here...
+guesses.style.backgroundColor = 'yellow';
+guesses.style.fontsize = '200%';
+guesses.style.padding = '10px';
+guesses.style.boxShadow = '3px 3px 6px black';
